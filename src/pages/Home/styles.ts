@@ -32,6 +32,8 @@ export const BaseCountdownButton = styled.button`
 
   cursor: pointer;
 
+  transition: all ease 0.2s;
+
   &:disabled {
     opacity: 0.7;
     cursor: not-allowed;
